@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class APNACOLLEGEarray{
+  public static void main (String []args){
+    Scanner sc= new Scanner(System.in);
+    System.out.print("Enter a numbers ");
+    int number = new int[size];
+    for(int i =0; i<size; i++){
+      number[i] = sc.nextInt();
+    }
+    int x=sc.nextInt();
+    
+       
+    for(int i=o; i<numbers.length; i++){
+      if(number[i] == x){
+        System.out.println("x="+i);
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+import java.util.*;
+public class array{
+  public static void main (String args[]){
+    String  [] arr=new String[6];
+    
+    for(int i=0;i<6;i++){
+      arr[i]=sc.nextLine();}
+  }
+  System.out.println(Array.toString(arr));
+}
+
+      
