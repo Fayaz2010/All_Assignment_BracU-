@@ -1,0 +1,22 @@
+public class Student{
+  String name ="";
+  String prog ="";
+  public void Student(String Name,String course){
+    this.name=Name;
+    this.prog=course;
+  }
+  public String updateName(String Name){
+    return(name=Name);
+  }
+  public String accessName(){
+    return(name);
+  }
+  
+  public String updateProgram(String course){
+    return(prog=course);
+  }
+  public String accessProgram(){
+    return(prog);
+  }
+}
+  

@@ -1,0 +1,31 @@
+public class Product{
+ String Name=;
+ int Price;
+ int Quantity; 
+  public void displayInfo(){
+    System.out.println("Product Name: "+this.Name);
+    System.out.println("Price: "+this.Price);
+  }
+  public Product(String Name, int Price){
+    this.Name=Name;
+    this.Price=Price;
+  }
+  public void displayInfo(String a){
+    System.out.println("Product Name: "+this.Name);
+    System.out.println("Price: "+this.Price);
+    System.out.println("Quantity: "+this.Quantity);
+  }
+  public setQuantity(int Quantity){
+    this.Quantity=Quantity;
+  }
+  public int getQuantity(){
+   return this.Quantity;
+  }
+  public getPrice()(){
+    return this.Quantity;
+  }
+}
+    
+    
+    
+    
