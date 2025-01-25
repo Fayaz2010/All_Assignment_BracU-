@@ -1,0 +1,15 @@
+public class Course{
+   public String cName;
+   public String code;
+   public int credit;
+   public static void createCourse(String a,String b,int c){
+   cName=a;
+   code=b;
+   credit=c;
+   }
+   displayCourse();
+   public static void displayCourse(){
+     System.out.println(this.cName);
+     System.out.println(this.code);
+     System.out.println(this.credit);
+}

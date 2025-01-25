@@ -1,0 +1,31 @@
+public class Dog{
+  String name;
+  String color;
+  public void changeName(String a){
+      this.name=a;
+    }
+  public void changeColor(String a){
+      this.Color=a;
+      if (this.name==null){
+        System.out.print("This dog is "+color);
+      }
+      else{
+        System.out.print(this.name+" is "+color);
+      }
+    }
+   public void bark(){
+     if(this.name==null && this.color==null){
+       System.out.print("A dog is barking");
+     }
+     else if(this.name==null){
+       System.out.print(this.name+" is barking");
+     }
+     else if(this.color==null){
+       System.out.print(this.color+" is barking");
+     }
+     else{
+        System.out.print(this.name+" the "+this.color+" dog is barking");
+     }
+   }
+}
+   
