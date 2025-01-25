@@ -1,0 +1,27 @@
+package task01 ;
+
+public class Passenger {
+    String Passenger;
+    double Fare;
+    static int c;
+    static int x;
+    public Passenger(String name, int fare){
+        Passenger=name;
+        Fare=fare*20;
+        c++;
+    }
+    public void passengerDetails(){
+        System.out.println("Name "+Passenger);
+        System.out.println("Fare "+Fare);
+        x+=Fare;
+    }
+    public void setBaggageWeight(double a){
+        Fare+=a;
+    }
+    public  static int  no_of_passenger(){
+        return c;
+    }  
+    public static double total_fare(){
+        return x;
+    }
+}
