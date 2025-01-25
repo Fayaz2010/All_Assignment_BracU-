@@ -1,0 +1,25 @@
+package task03;
+
+public class Student {
+    int TotalStudent;
+    int CSEStudent;
+    int Other_Department_Student;
+    String Name="";
+    double CGPA;
+    String Department="";
+    public void printDetails(){
+        System.err.println();
+        System.err.println();
+        System.err.println();
+
+    }
+    public Student(String name,double cg){
+        Name=name;
+        CGPA=cg;
+        Department="CSE";
+    }
+    public createStudent(String name ,double cg, String department){
+        
+    }
+    
+}
