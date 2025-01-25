@@ -1,0 +1,8 @@
+public class Shelf{
+  int capacity;
+  int booksnummber;
+  public void showDetails(){
+    System.out.ptint("Shelf capacity: "+capacity);
+    System.out.ptint("Number of books: "+booksnummber);
+  }
+}

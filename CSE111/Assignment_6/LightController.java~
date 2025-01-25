@@ -1,0 +1,36 @@
+public class LightController{
+  String Light= "OFF";
+  int brightness;
+  public class showLightStatus(){
+    System.out.print("Light status: "+Light);
+    System.out.print("Brightness Level: "+brightness);
+  }
+  public class adjustBrightness(int a){
+    if (Light.equalsto("OFF")){ 
+      System.out.print("Please turn on the light first!");
+    }
+    else{
+      brightness+=a;  
+    }
+  }
+  public class switchLight(){
+    if(Light.equalsto("OFF")){
+      Light= "ON";
+      System.out.print("Lights are now ON");
+      brightness=1;
+    }
+    else(Light.equalsto("ON")){
+      Light= "OFF";
+      System.out.print("Lights are now OFF");
+      }
+  }
+}
+    
+      
+      
+      
+      
+      
+      
+      
+  

@@ -1,0 +1,19 @@
+public class Assignment{
+  public int tasks;
+  public String difficulty;
+  public bolean submission;
+  Pulic void printDetails(){
+    System.out.println(tasks);
+    System.out.println(difficulty);
+    System.out.println(submission);
+  }
+  Pulic void makeOptional(){
+    if (submission==true){
+      System.out.print("Assignment will not require submission");
+      submission=false;
+    }
+    else {
+      System.out.print("Submission is already not required");
+    }
+  }
+}
