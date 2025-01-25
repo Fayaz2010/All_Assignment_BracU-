@@ -1,0 +1,28 @@
+public class CellPhone {
+    String model = "unknown";
+    String[] contacts = new String[3]; // Maximum of 3 contacts
+    int contactCount = 0;
+
+    // Method to print phone details
+    public void printDetails() {
+        System.out.println("Phone Model " + this.model);
+        System.out.println("Contacts Stored " + this.contactCount);
+        if (this.contactCount > 0) {
+            System.out.println("Stored Contacts:");
+            for (int i = 0; i < this.contactCount; i++) {
+                System.out.println(this.contacts[i]);
+            }
+        }
+    }
+
+    // Method to store a new contact
+    public void storeContact(String contact) {
+        if (this.contactCount < 3) {
+            this.contacts[this.contactCount] = contact;
+            this.contactCount++;
+            System.out.println("Contact Stored");
+        } else {
+            System.out.println("Memory full. New contact can't be stored.");
+        }
+    }
+}

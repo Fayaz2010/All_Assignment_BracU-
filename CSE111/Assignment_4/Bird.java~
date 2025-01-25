@@ -1,0 +1,7 @@
+public class Bird {
+  public String name;
+  public void flyUp(int a){
+  System.out.println(this.name+" cat is "+a);
+  }
+
+}

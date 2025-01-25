@@ -1,0 +1,9 @@
+public class tester{
+  public Static void main(String [] args){
+    University u1 =new University();
+    University u2 =new University();
+    System.out.print(u1);
+    System.out.print(u2);
+  }
+}
+    
